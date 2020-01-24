@@ -1,4 +1,4 @@
-image: klgitm/Learning-Angular
+image: trion/ng-cli-karma
 
 cache:
   paths:
