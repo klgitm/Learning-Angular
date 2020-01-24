@@ -1,0 +1,16 @@
+{
+  "name": "ngfu",
+  "short_name": "ngfu",
+  "apple-mobile-web-app-title": "ngfu",
+  "start_url": "/",
+  "background_color": "#505050",
+  "theme_color": "#505050",
+  "orientation": "portrait-primary",
+  "display": "standalone",
+  "apple-mobile-web-app-capable": "standalone",
+
+  "dir": "ltr",
+  "scope": "/"
+
+
+}
