@@ -8,9 +8,6 @@
   "orientation": "portrait-primary",
   "display": "standalone",
   "apple-mobile-web-app-capable": "standalone",
-
   "dir": "ltr",
   "scope": "/"
-
-
 }

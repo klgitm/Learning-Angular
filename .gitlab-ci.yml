@@ -14,6 +14,6 @@ deploy_stage:
     - npm install
     - ./node_modules/@angular/cli/bin/ng test --progress false --single-run=true --watch=false
     - ./node_modules/@angular/cli/bin/ng e2e --progress false --watch=false
-    - cp ./src/index.html ./src/200.html
     - ./node_modules/@angular/cli/bin/ng build --progress false --prod --base-href /
+    - cp ./dist/index.html ./dist/200.html
     - ./node_modules/.bin/surge -p dist/ --domain ngfu.surge.sh
